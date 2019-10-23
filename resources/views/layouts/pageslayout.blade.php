@@ -179,7 +179,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <p class="copyright">© 2019 Beapp. All Rights Reserved.</p>
+                    <p class="copyright">© 2019 Hustlance. All Rights Reserved.</p>
                 </div>
             </div>
         </div>
