@@ -164,7 +164,11 @@
             </div>
             <div class="row">
                 <div class="col-lg-12">
+<<<<<<< HEAD
                     <p class="copyright">© {{Date('Y')}} Hustlance. All Rights Reserved.</p>
+=======
+                    <p class="copyright">© 2019 Hustlance. All Rights Reserved.</p>
+>>>>>>> 353d183e456eadbc56fc2ec6e209685850c010f8
                 </div>
             </div>
         </div>
