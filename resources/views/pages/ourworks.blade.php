@@ -13,7 +13,7 @@
                     </div>
                     <div class="col-lg-12">
                         <ol class="breadcrumb">
-                            <li><a href="home.html">Home</a></li>
+                        <li><a href="{{url('/')}}">Home</a></li>
                             <li class="active">Our Work</li>
                         </ol>
                     </div>
@@ -27,230 +27,34 @@
     <div class="page-bottom pbottom-70">
         <div class="container">
             <div class="row">
-                <!-- ***** App Item Start ***** -->
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="page-app">
-                        <div class="icon">
-                            <img src="assets/images/icons/apps/1.png" alt="">
-                        </div>
-                        <div class="app-content">
-                            <h5 class="title">Dance School</h5>
-                            <ul class="stars">
-                                <li><i class="fa fa-star active"></i></li>
-                                <li><i class="fa fa-star active"></i></li>
-                                <li><i class="fa fa-star active"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li>(144)</li>
-                            </ul>
-                            <div class="text">
-                                Facilisis arcu ligula, malesuada id tincidunt laoreet, facilisis at justo id tincidunt.
-                            </div>
-                            <a href="app-single.html" class="btn-primary-line">App Details</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- ***** App Item End ***** -->
 
-                <!-- ***** App Item Start ***** -->
+                @if (count($works)>0)
+                    @foreach ($works as $item)
+                           <!-- ***** App Item Start ***** -->
                 <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="page-app">
-                        <div class="icon">
-                            <img src="assets/images/icons/apps/2.png" alt="">
-                        </div>
-                        <div class="app-content">
-                            <h5 class="title">Coiner</h5>
-                            <ul class="stars">
-                                <li><i class="fa fa-star active"></i></li>
-                                <li><i class="fa fa-star active"></i></li>
-                                <li><i class="fa fa-star active"></i></li>
-                                <li><i class="fa fa-star active"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li>(73)</li>
-                            </ul>
-                            <div class="text">
-                                Facilisis arcu ligula, malesuada id tincidunt laoreet, facilisis at justo id tincidunt.
+                        <div class="page-app">
+                            <div class="icon">
+                            <img src="/storage/{{$item->framework}}" alt="">
                             </div>
-                            <a href="app-single.html" class="btn-primary-line">App Details</a>
+                            <div class="app-content">
+                                <h5 class="title">{{$item->name}}</h5>
+                            <small><b><a href="{{$item->link}}">{{$item->link}}</a></b></small> 
+                                
+                                <div class="text">
+                                   {{substr($item->description,0,200)}}
+                                </div>
+                            <a href="{{url('ourworks/'.$item->slug.'')}}" class="btn-primary-line">Project Details</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <!-- ***** App Item End ***** -->
+                    <!-- ***** App Item End ***** -->
+                    @endforeach
+                @else
+                    <p><b><i>Uploading our previous works...</i></b></p>
+                @endif
+             
 
-                <!-- ***** App Item Start ***** -->
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="page-app">
-                        <div class="icon">
-                            <img src="assets/images/icons/apps/3.png" alt="">
-                        </div>
-                        <div class="app-content">
-                            <h5 class="title">Cloud Manager</h5>
-                            <ul class="stars">
-                                <li><i class="fa fa-star active"></i></li>
-                                <li><i class="fa fa-star active"></i></li>
-                                <li><i class="fa fa-star active"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li>(288)</li>
-                            </ul>
-                            <div class="text">
-                                Facilisis arcu ligula, malesuada id tincidunt laoreet, facilisis at justo id tincidunt.
-                            </div>
-                            <a href="app-single.html" class="btn-primary-line">App Details</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- ***** App Item End ***** -->
-
-                <!-- ***** App Item Start ***** -->
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="page-app">
-                        <div class="icon">
-                            <img src="assets/images/icons/apps/4.png" alt="">
-                        </div>
-                        <div class="app-content">
-                            <h5 class="title">Social Winner</h5>
-                            <ul class="stars">
-                                <li><i class="fa fa-star active"></i></li>
-                                <li><i class="fa fa-star active"></i></li>
-                                <li><i class="fa fa-star active"></i></li>
-                                <li><i class="fa fa-star active"></i></li>
-                                <li><i class="fa fa-star active"></i></li>
-                                <li>(98)</li>
-                            </ul>
-                            <div class="text">
-                                Facilisis arcu ligula, malesuada id tincidunt laoreet, facilisis at justo id tincidunt.
-                            </div>
-                            <a href="app-single.html" class="btn-primary-line">App Details</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- ***** App Item End ***** -->
-
-                <!-- ***** App Item Start ***** -->
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="page-app">
-                        <div class="icon">
-                            <img src="assets/images/icons/apps/5.png" alt="">
-                        </div>
-                        <div class="app-content">
-                            <h5 class="title">Coding Life</h5>
-                            <ul class="stars">
-                                <li><i class="fa fa-star active"></i></li>
-                                <li><i class="fa fa-star active"></i></li>
-                                <li><i class="fa fa-star active"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li>(9)</li>
-                            </ul>
-                            <div class="text">
-                                Facilisis arcu ligula, malesuada id tincidunt laoreet, facilisis at justo id tincidunt.
-                            </div>
-                            <a href="app-single.html" class="btn-primary-line">App Details</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- ***** App Item End ***** -->
-
-                <!-- ***** App Item Start ***** -->
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="page-app">
-                        <div class="icon">
-                            <img src="assets/images/icons/apps/6.png" alt="">
-                        </div>
-                        <div class="app-content">
-                            <h5 class="title">Design Now</h5>
-                            <ul class="stars">
-                                <li><i class="fa fa-star active"></i></li>
-                                <li><i class="fa fa-star active"></i></li>
-                                <li><i class="fa fa-star active"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li>(476)</li>
-                            </ul>
-                            <div class="text">
-                                Facilisis arcu ligula, malesuada id tincidunt laoreet, facilisis at justo id tincidunt.
-                            </div>
-                            <a href="app-single.html" class="btn-primary-line">App Details</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- ***** App Item End ***** -->
-
-                <!-- ***** App Item Start ***** -->
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="page-app">
-                        <div class="icon">
-                            <img src="assets/images/icons/apps/7.png" alt="">
-                        </div>
-                        <div class="app-content">
-                            <h5 class="title">Smart Recorder</h5>
-                            <ul class="stars">
-                                <li><i class="fa fa-star active"></i></li>
-                                <li><i class="fa fa-star active"></i></li>
-                                <li><i class="fa fa-star active"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li>(27)</li>
-                            </ul>
-                            <div class="text">
-                                Facilisis arcu ligula, malesuada id tincidunt laoreet, facilisis at justo id tincidunt.
-                            </div>
-                            <a href="app-single.html" class="btn-primary-line">App Details</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- ***** App Item End ***** -->
-
-                <!-- ***** App Item Start ***** -->
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="page-app">
-                        <div class="icon">
-                            <img src="assets/images/icons/apps/8.png" alt="">
-                        </div>
-                        <div class="app-content">
-                            <h5 class="title">Pocket Office</h5>
-                            <ul class="stars">
-                                <li><i class="fa fa-star active"></i></li>
-                                <li><i class="fa fa-star active"></i></li>
-                                <li><i class="fa fa-star active"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li>(943)</li>
-                            </ul>
-                            <div class="text">
-                                Facilisis arcu ligula, malesuada id tincidunt laoreet, facilisis at justo id tincidunt.
-                            </div>
-                            <a href="app-single.html" class="btn-primary-line">App Details</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- ***** App Item End ***** -->
-
-                <!-- ***** App Item Start ***** -->
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="page-app">
-                        <div class="icon">
-                            <img src="assets/images/icons/apps/1.png" alt="">
-                        </div>
-                        <div class="app-content">
-                            <h5 class="title">Dance School</h5>
-                            <ul class="stars">
-                                <li><i class="fa fa-star active"></i></li>
-                                <li><i class="fa fa-star active"></i></li>
-                                <li><i class="fa fa-star active"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li>(144)</li>
-                            </ul>
-                            <div class="text">
-                                Facilisis arcu ligula, malesuada id tincidunt laoreet, facilisis at justo id tincidunt.
-                            </div>
-                            <a href="app-single.html" class="btn-primary-line">App Details</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- ***** App Item End ***** -->
+    
             </div>
         </div>
     </div>

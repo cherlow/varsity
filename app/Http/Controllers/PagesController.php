@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Work;
 use Illuminate\Http\Request;
+use Wink\WinkPage;
 use Wink\WinkPost;
 use Wink\WinkTag;
 
@@ -10,14 +12,22 @@ class PagesController extends Controller
 {
 // index page here
   public function index(){
-    return view('pages.index');
+    $posts = WinkPost::with('tags')
+    ->live()
+    ->orderBy('publish_date', 'DESC')
+    ->take(3)->get();
+    return view('pages.index')->with('posts',$posts);
   }
 
   // our works page hereh
 
   public function ourworks(){
 
-    return view('pages.ourworks');
+    $works= Work::orderBy('id','desc')->get();
+  
+
+
+    return view('pages.ourworks')->with('works',$works);
   }
 
   // about page here
@@ -86,5 +96,10 @@ return view('pages.blog')->with('latestpost',$latestpost)->with('posts',$posts)-
     $tags=WinkTag::with('posts')->get();
     
     return view('pages.singleblog')->with('post',$post)->with('tags',$tags);
+  }
+
+  public function singleworks($slug){
+    $work=Work::where('slug',$slug)->first();
+    return view('pages.singleworks')->with('work',$work);
   }
 }

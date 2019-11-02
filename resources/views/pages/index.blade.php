@@ -16,65 +16,65 @@
                 <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 align-self-center">
                     <h1>We design and develop mobile And Web apps that delight your users and grow your business.</h1>
                     <p>Our team of agile thinkers is made up of specialists in every area of the mobile application lifecycle. We’re able to translate the market and user data into effective strategies that bring you closer to your business goals.</p>
-                    <a class="btn-white-line" href="#">OUR WORKS</a>
+                <a class="btn-white-line" href="{{url('ourworks')}}">OUR WORKS</a>
                 </div>
                 <div class="offset-lg-1 col-lg-5 col-md-12 col-sm-12 col-xs-12 align-self-center">
                     <div class="apps">
                         <div class="container-fluid">
                             <div class="row">
                                 <div class="col-lg-3 col-md-3 col-sm-3 col-3">
-                                    <a href="app-single.html" class="app-item">
+                                    <a href="javascript:void(0)" class="app-item">
                                         <div class="icon">
-                                            <img src="assets/images/icons/apps/1.png" class="img-fluid" alt="">
+                                            <img src="assets/images/icons/apps/angular.svg" style="background:white;border-radius:30%" class="img-fluid" alt="">
                                         </div>
                                     </a>
                                 </div>
                                 <div class="col-lg-3 col-md-3 col-sm-3 col-3">
-                                    <a href="app-single.html" class="app-item">
+                                    <a href="javascript:void(0)" class="app-item">
                                         <div class="icon">
-                                            <img src="assets/images/icons/apps/2.png" class="img-fluid" alt="">
+                                            <img src="assets/images/icons/apps/firebase.svg" style="background:white;border-radius:30%" class="img-fluid" alt="">
                                         </div>
                                     </a>
                                 </div>
                                 <div class="col-lg-3 col-md-3 col-sm-3 col-3">
-                                    <a href="app-single.html" class="app-item">
+                                    <a href="javascript:void(0)" class="app-item">
                                         <div class="icon">
-                                            <img src="assets/images/icons/apps/3.png" class="img-fluid" alt="">
+                                            <img src="assets/images/icons/apps/laravel.svg" style="background:white;border-radius:30%" class="img-fluid" alt="">
                                         </div>
                                     </a>
                                 </div>
                                 <div class="col-lg-3 col-md-3 col-sm-3 col-3">
-                                    <a href="app-single.html" class="app-item">
+                                    <a href="javascript:void(0)" class="app-item">
                                         <div class="icon">
-                                            <img src="assets/images/icons/apps/4.png" class="img-fluid" alt="">
+                                            <img src="assets/images/icons/apps/python.svg" style="background:white;border-radius:30%" class="img-fluid" alt="">
                                         </div>
                                     </a>
                                 </div>
                                 <div class="col-lg-3 col-md-3 col-sm-3 col-3">
-                                    <a href="app-single.html" class="app-item">
+                                    <a href="javascript:void(0)" class="app-item">
                                         <div class="icon">
-                                            <img src="assets/images/icons/apps/5.png" class="img-fluid" alt="">
+                                            <img src="assets/images/icons/apps/flutter2.svg " style="background:white;border-radius:30%;width:512px"  class="img-fluid" alt="">
                                         </div>
                                     </a>
                                 </div>
                                 <div class="col-lg-3 col-md-3 col-sm-3 col-3">
-                                    <a href="app-single.html" class="app-item">
+                                    <a href="javascript:void(0)" class="app-item">
                                         <div class="icon">
-                                            <img src="assets/images/icons/apps/6.png" class="img-fluid" alt="">
+                                            <img src="assets/images/icons/apps/vue2.svg" style="background:white;border-radius:30%;width:512px" class="img-fluid" alt="">
                                         </div>
                                     </a>
                                 </div>
                                 <div class="col-lg-3 col-md-3 col-sm-3 col-3">
-                                    <a href="app-single.html" class="app-item">
+                                    <a href="javascript:void(0)" class="app-item">
                                         <div class="icon">
-                                            <img src="assets/images/icons/apps/7.png" class="img-fluid" alt="">
+                                            <img src="assets/images/icons/apps/nodejs.svg" style="background:white;border-radius:30%;width:80px;height:70px" class="img-fluid" alt="">
                                         </div>
                                     </a>
                                 </div>
                                 <div class="col-lg-3 col-md-3 col-sm-3 col-3">
-                                    <a href="app-single.html" class="app-item">
+                                    <a href="javascript:void(0)" class="app-item">
                                         <div class="icon">
-                                            <img src="assets/images/icons/apps/8.png" class="img-fluid" alt="">
+                                            <img src="assets/images/icons/apps/kotlin.svg"  style="background:white;border-radius:30%;width:80px" class="img-fluid" alt="">
                                         </div>
                                     </a>
                                 </div>
@@ -103,7 +103,7 @@
                     <p class="dark">A Team of undisputed Talent </p>
                     <p>We are a team of skilled product specialists: front-end and back-end developers, UI and UX designers, product managers, testers and marketers, who understand what makes people and mobile apps click.</p>
                 </div>
-                <a href="#" class="btn-primary-line">SERVICES</a>
+            <a href="{{url('services')}}" class="btn-primary-line">SERVICES</a>
             </div>
             <!-- ***** Home About End ***** -->
 
@@ -111,24 +111,24 @@
             <div class="offset-lg-1 col-lg-6 col-md-12 col-sm-12 align-self-bottom">
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                        <a href="services-single.html" class="home-services-item mtop-70" data-scroll-reveal="enter bottom move 30px over 0.6s after 0.2s">
+                        <a href="javascript:void(0)" class="home-services-item mtop-70" data-scroll-reveal="enter bottom move 30px over 0.6s after 0.2s">
                             <i class="fa fa-clone"></i>
                             <h5 class="services-title">Mobility Services Strategy</h5>
                             <p>We dive into your business model, market challenges, and product positioning, helping you create a product that delivers unique value. </p>
                         </a>
-                        <a href="services-single.html" class="home-services-item" data-scroll-reveal="enter bottom move 30px over 0.6s after 0.2s">
+                        <a href="javascript:void(0)" class="home-services-item" data-scroll-reveal="enter bottom move 30px over 0.6s after 0.2s">
                             <i class="fa fa-connectdevelop"></i>
                             <h5 class="services-title">Native App Development</h5>
                             <p>We develop high-quality iOS and Android mobile applications from one end to the other. And we do it well. </p>
                         </a>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                        <a href="services-single.html" class="home-services-item active" data-scroll-reveal="enter bottom move 30px over 0.6s after 0.3s">
+                        <a href="javascript:void(0)" class="home-services-item active" data-scroll-reveal="enter bottom move 30px over 0.6s after 0.3s">
                             <i class="fa fa-object-ungroup"></i>
                             <h5 class="services-title">Design & User Experience</h5>
                             <p>We’ve got a user-centered mobile and web app design philosophy that guides our every creative move. </p>
                         </a>
-                        <a href="services-single.html" class="home-services-item" data-scroll-reveal="enter bottom move 30px over 0.6s after 0.3s">
+                        <a href="javascript:void(0)" class="home-services-item" data-scroll-reveal="enter bottom move 30px over 0.6s after 0.3s">
                             <i class="fa fa-line-chart"></i>
                             <h5 class="services-title">Maintenance & Monitoring</h5>
                             <p>We'll be tapping, swiping and pushing until every last bug is fixed. We'll make sure that your mobile app is in top shape for its app store launch and that it will make good on its promise.</p>
@@ -161,28 +161,28 @@
         <!-- ***** Home Services Start ***** -->
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12">
-                <a href="blue-services-single.html" class="home-services-item" data-scroll-reveal="enter bottom move 30px over 0.6s after 0.2s">
+                <a href="javascript:void(0)" class="home-services-item" data-scroll-reveal="enter bottom move 30px over 0.6s after 0.2s">
                     <i class="fa fa-rocket"></i>
                     <h5 class="services-title"> Client Centric Development</h5>
                     <p>We are the one that leverages best ever web, mobile & blockchain solutions to the clients.</p>
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12">
-                <a href="blue-services-single.html" class="home-services-item active" data-scroll-reveal="enter bottom move 30px over 0.6s after 0.2s">
+                <a href="javascript:void(0)" class="home-services-item active" data-scroll-reveal="enter bottom move 30px over 0.6s after 0.2s">
                     <i class="fa fa-cube"></i>
                     <h5 class="services-title">Agile Development</h5>
                     <p>We follow Agile Development process that helps us to deliver the project with utmost quality and solid product.</p>
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12">
-                <a href="blue-services-single.html" class="home-services-item" data-scroll-reveal="enter bottom move 30px over 0.6s after 0.3s">
+                <a href="javascript:void(0)" class="home-services-item" data-scroll-reveal="enter bottom move 30px over 0.6s after 0.3s">
                     <i class="fa fa-object-group"></i>
                     <h5 class="services-title">Dedicated Development Team</h5>
                     <p>We assign a cost-effective dedicated team to all our projects that assures quality of the Product.</p>
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12">
-                <a href="blue-services-single.html" class="home-services-item" data-scroll-reveal="enter bottom move 30px over 0.6s after 0.3s">
+                <a href="javascript:void(0)" class="home-services-item" data-scroll-reveal="enter bottom move 30px over 0.6s after 0.3s">
                     <i class="fa fa-code"></i>
                     <h5 class="services-title">Quality Deliverance</h5>
                     <p>We believe in delivering quality products to our clients by assuring all their project specification are met.</p>
@@ -264,49 +264,49 @@
                     <p>Services That We Deliver Makes Us Dignified As One of The Top Software Development Companies</p>
                     <div class="row">
                         <div class="col-lg-6 col-md-6 col-sm-12">
-                            <a class="btn-home active" href="#">
+                            <a class="btn-home active" href="javascript:void(0)">
                                 <i class="fa fa-angle-right"></i>
-                                <span>Web Design</span>
+                                <span>Web Development</span>
                             </a>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12">
-                            <a class="btn-home" href="#">
+                            <a class="btn-home" href="javascript:void(0)">
                                 <i class="fa fa-angle-right"></i>
-                                <span>Mobile App Design</span>
+                                <span>Design & User Experience</span>
                             </a>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12">
-                            <a class="btn-home" href="#">
+                            <a class="btn-home" href="javascript:void(0)">
                                 <i class="fa fa-angle-right"></i>
                                 <span>Android Development</span>
                             </a>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12">
-                            <a class="btn-home" href="#">
+                            <a class="btn-home" href="javascript:void(0)">
                                 <i class="fa fa-angle-right"></i>
                                 <span>iOS Development</span>
                             </a>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12">
-                            <a class="btn-home" href="#">
+                            <a class="btn-home" href="javascript:void(0)">
                                 <i class="fa fa-angle-right"></i>
                                 <span>Back-End</span>
                             </a>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12">
-                            <a class="btn-home" href="#">
+                            <a class="btn-home" href="javascript:void(0)">
                                 <i class="fa fa-angle-right"></i>
                                 <span>Front-End</span>
                             </a>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12">
-                            <a class="btn-home" href="#">
+                            <a class="btn-home" href="javascript:void(0)">
                                 <i class="fa fa-angle-right"></i>
                                 <span>e-Commerce</span>
                             </a>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12">
-                            <a class="btn-home" href="#">
+                            <a class="btn-home" href="javascript:void(0)">
                                 <i class="fa fa-angle-right"></i>
                                 <span>API Development</span>
                             </a>
@@ -334,38 +334,39 @@
 
             <!-- ***** Mini Box Start ***** -->
             <div class="row">
+                    <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+                            <a href="javascript:void(0)" class="mini-box">
+                                <i class="fa fa-bolt"></i>
+                                <strong>Idea</strong>
+                            </a>
+                        </div>
                 <div class="col-lg-2 col-md-3 col-sm-6 col-6">
-                    <a href="#" class="mini-box">
+                    <a href="javascript:void(0)" class="mini-box">
                         <i class="fa fa-calendar"></i>
                         <strong>Plan</strong>
                     </a>
                 </div>
+              
                 <div class="col-lg-2 col-md-3 col-sm-6 col-6">
-                    <a href="#" class="mini-box">
-                        <i class="fa fa-bolt"></i>
-                        <strong>Idea</strong>
-                    </a>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 col-6">
-                    <a href="#" class="mini-box">
+                    <a href="javascript:void(0)" class="mini-box">
                         <i class="fa fa-pie-chart"></i>
                         <strong>Analysis</strong>
                     </a>
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-6 col-6">
-                    <a href="#" class="mini-box">
+                    <a href="javascript:void(0)" class="mini-box">
                         <i class="fa fa-code"></i>
                         <strong>Develop</strong>
                     </a>
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-6 col-6">
-                    <a href="#" class="mini-box">
+                    <a href="javascript:void(0)" class="mini-box">
                         <i class="fa fa-server"></i>
                         <strong>Launch</strong>
                     </a>
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-6 col-6">
-                    <a href="#" class="mini-box">
+                    <a href="javascript:void(0)" class="mini-box">
                         <i class="fa fa-check"></i>
                         <strong>Reporting</strong>
                     </a>
@@ -388,53 +389,30 @@
             </div>
             <div class="offset-lg-3 col-lg-6">
                 <div class="center-text">
-                    <p>Fusce placerat pretium mauris, vel sollicitudin elit lacinia vitae. Quisque sit amet nisi erat.</p>
+                    <p>Latest posts from our blog</p>
                 </div>
             </div>
         </div>
         <div class="row">
+            @foreach ($posts as $post)
             <div class="col-lg-4 col-md-6 col-sm-12">
-                <div class="blog-post-thumb">
-                    <div class="img">
-                        <img src="assets/images/photos/blog/1.jpg" alt="">
+                    <div class="blog-post-thumb">
+                        <div class="img">
+                        <img src="{{$post->featured_image}}" alt="">
+                        </div>
+                        <h3>
+                        <a href="{{url('/blog/'.$post->slug.'')}}">{{$post->title}}</a>
+                        </h3>
+                        <div class="text">
+                                {!!substr($post->body,0,200)!!}
+                        </div>
+                        <a href="{{url('/blog/'.$post->slug.'')}}" class="btn-primary-line">Read More</a>
                     </div>
-                    <h3>
-                        <a href="blog-single.html">5 steps to becoming GDPR compliant on mobile apps</a>
-                    </h3>
-                    <div class="text">
-                        Mauris tellus sem, ultrices varius nisl at, convallis iaculis mauris. Sed eget sem vitae purus tempus dignissim.
-                    </div>
-                    <a href="blog-single.html" class="btn-primary-line">Read More</a>
                 </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-                <div class="blog-post-thumb">
-                    <div class="img">
-                        <img src="assets/images/photos/blog/2.jpg" alt="">
-                    </div>
-                    <h3>
-                        <a href="blog-single.html">Measuring app success through mobile analytics</a>
-                    </h3>
-                    <div class="text">
-                        Cras imperdiet faucibus sem, a dignissim urna feugiat sed. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-                    </div>
-                    <a href="blog-single.html" class="btn-primary-line">Read More</a>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-                <div class="blog-post-thumb">
-                    <div class="img">
-                        <img src="assets/images/photos/blog/3.jpg" alt="">
-                    </div>
-                    <h3>
-                        <a href="blog-single.html">How accessibility will influence your app development</a>
-                    </h3>
-                    <div class="text">
-                        Quisque euismod nec lacus sit amet maximus. Ut convallis sagittis lorem auctor malesuada. Morbi auctor tortor eu risus condimentum.
-                    </div>
-                    <a href="blog-single.html" class="btn-primary-line">Read More</a>
-                </div>
-            </div>
+            @endforeach
+         
+           
+            
         </div>
     </div>
 </section>
