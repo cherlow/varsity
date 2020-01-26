@@ -1,6 +1,8 @@
 @extends('layouts.pageslayout')
 @section('content')
 
+<script data-ad-client="ca-pub-7673084103683337" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <section class="page">
     <!-- ***** Page Top Start ***** -->
     <div class="cover" data-image="/assets/images/photos/parallax.jpg">
@@ -48,9 +50,13 @@
                                 <!-- ***** Post Content Start ***** -->
                                 <div class="text post-detail">
                                         {!!$post->body!!}
+
+                                        
                                     
                                 </div>
                                 <!-- ***** Post Content End ***** -->
+
+                                
 
                                 <!-- ***** Post Share Start ***** -->
                                 <div class="post-footer">
@@ -63,8 +69,44 @@
                                     </ul>
                                 </div>
                                 <!-- ***** Post Share End ***** -->
+
+
+
+
+
+
                             </div>
                         </div>
+
+                        <div class="col-lg-12">
+								<div class="section-comments">
+									
+									<ul class="">
+                                    <div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+
+var disqus_config = function () {
+this.page.url = '{{Request::url()}}';  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = '{{$post->id}}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://hustlance.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                            
+										
+									</ul>
+								</div>
+							</div>
 
                       
 
@@ -124,5 +166,8 @@
     </div>
     <!-- ***** Page Content End ***** -->
 </section>
+
+<script data-ad-client="ca-pub-7673084103683337" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
     
 @endsection

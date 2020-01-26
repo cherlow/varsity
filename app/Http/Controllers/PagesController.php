@@ -18,6 +18,9 @@ class PagesController extends Controller
     ->take(3)->get();
     return view('pages.index')->with('posts',$posts);
   }
+  public function contact(){
+    return view('pages.contact');
+  }
 
   // our works page hereh
 

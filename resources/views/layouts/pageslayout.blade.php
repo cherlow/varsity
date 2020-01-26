@@ -4,13 +4,24 @@
 
 
 <head>
+
+
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WLPR77R');</script>
+<!-- End Google Tag Manager -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hustlance - Mobile App Development Agency </title>
+    <title>Hustlance - Mobile App and Web App Development Agency </title>
     <meta name="description" content="Hustlance is a Mobile App and web App  Development Agency." />
     <meta name="keywords" content="Hustlance Hustlancers, Mobile developers, kenya developers, mobile app, agency, development, html,wordpress developers, freelance developers in kenya,freelance, hustlance,hustlancers" />
     <meta name="author" content="Hustlance" />
+    <script data-ad-client="ca-pub-7673084103683337" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="/assets/images/favicon.png" />
@@ -26,19 +37,15 @@
     {{-- <link href="/vendor/wink/dark.css?id=5edbafd89583c5762130" rel="stylesheet" type="text/css"> --}}
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <!-- <script async src="../../external.html?link=https://www.googletagmanager.com/gtag/js?id=UA-118135390-1"></script> -->
-    <script>
-        window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-118135390-1');
-    </script>
 </head>
 
 <body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WLPR77R"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
     <!-- ***** Preloader Start ***** -->
     <div class="loader-wrapper">
@@ -79,7 +86,7 @@
                         
           
                       
-                        <li><a href="{{url('/newproject')}}" class="btn-nav-line"> REQUEST QUOTE</a></li>
+                        <li><a href="{{url('/contact')}}" class="btn-nav-line"> REQUEST QUOTE</a></li>
                        
                         </ul>
                         <a class="menu-trigger">
@@ -98,7 +105,7 @@
 
 
      <!-- ***** Counter Parallax Start ***** -->
-     <section class="parallax" data-image="/assets/images/photos/parallax.jpg" >
+     <!-- <section class="parallaax" >
         <div class="parallax-content">
             <div class="container">
                 <div class="row">
@@ -111,7 +118,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- ***** Counter Parallax End ***** -->
 
 
@@ -164,11 +171,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-12">
-<<<<<<< HEAD
                     <p class="copyright">© {{Date('Y')}} Hustlance. All Rights Reserved.</p>
-=======
-                    <p class="copyright">© 2019 Hustlance. All Rights Reserved.</p>
->>>>>>> 353d183e456eadbc56fc2ec6e209685850c010f8
                 </div>
             </div>
         </div>
@@ -191,6 +194,9 @@
     <script src="/assets/js/waypoints.min.js"></script>
     <script src="/assets/js/jquery.counterup.min.js"></script>
     <script src="/assets/js/imgfix.min.js"></script>
+    <script src="https://maps.google.com/maps/api/js?key=AIzaSyDnhqHvSE7Zn3il_ilQyPpko9MDJPIo-Dc"></script>
+
+    <script src="/assets/js/map-script.js"></script>
 
     <!-- Global Init -->
     <script src="/assets/js/custom.js"></script>

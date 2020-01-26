@@ -23,6 +23,7 @@ Route::get('/ourworks', 'PagesController@ourworks');
 Route::get('/ourworks/{slug}', 'PagesController@singleworks');
 Route::get('/about', 'PagesController@about');
 Route::get('/services', 'PagesController@services');
+Route::get('/contact', 'PagesController@contact');
 
 
 // Route::get('/home', 'HomeController@index')->name('home');

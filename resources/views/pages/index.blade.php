@@ -67,7 +67,7 @@
                                 <div class="col-lg-3 col-md-3 col-sm-3 col-3">
                                     <a href="javascript:void(0)" class="app-item">
                                         <div class="icon">
-                                            <img src="assets/images/icons/apps/nodejs.svg" style="background:white;border-radius:30%;width:80px;height:70px" class="img-fluid" alt="">
+                                            <img src="assets/images/icons/apps/nodee.svg" style="background:white;border-radius:30%; height:80px" class="img-fluid" alt="">
                                         </div>
                                     </a>
                                 </div>

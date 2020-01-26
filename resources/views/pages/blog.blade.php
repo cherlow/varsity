@@ -144,4 +144,7 @@
     <!-- ***** Page Content End ***** -->
 </section>
 
+<script data-ad-client="ca-pub-7673084103683337" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+
 @endsection
